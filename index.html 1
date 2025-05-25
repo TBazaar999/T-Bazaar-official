@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>T-Bazaar</title>
+</head>
+<body>
+  <h1>আমাদের পণ্য</h1>
+
+  <div>
+    <img src="shirt1.jpg" alt="গুচ্চি টি-শার্ট" width="200">
+    <p>গুচ্চি টি-শার্ট</p>
+    <p>দাম: ২০০ টাকা</p>
+  </div>
+
+  <div>
+    <img src="shirt2.jpg" alt="বোতাম শার্ট" width="200">
+    <p>বোতাম শার্ট</p>
+    <p>দাম: ৫০০ টাকা</p>
+  </div>
+</body>
+</html>
