@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>T-Bazaar | আপনার পছন্দ, আমাদের সম্মান</title>
+    <style>
+        body { font-family: Arial; background: #f9f9f9; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        img { max-width: 100%; margin-top: 10px; }
+        input, textarea, button { width: 100%; padding: 10px; margin: 10px 0; }
+        button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        .product { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>T-Bazaar</h1>
+        <p>আপনার পছন্দ, আমাদের সম্মান।</p>
+
+        <div class="product">
+            <h3>পণ্যের ছবি:</h3>
+            <input type="file" accept="image/*">
+
+            <h3>পণ্যের নাম:</h3>
+            <input type="text" placeholder="যেমন: লাল টি-শার্ট">
+
+            <h3>দাম:</h3>
+            <input type="number" placeholder="যেমন: ৪৫০ টাকা">
+        </div>
+
+        <form action="https://formsubmit.co/your-email@example.com" method="POST">
+            <h3>মেসেজ দিন:</h3>
+            <textarea name="message" rows="4" placeholder="আপনার বার্তা লিখুন..." required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">পাঠান</button>
+        </form>
+    </div>
+</body>
+</html>
